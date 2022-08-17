@@ -1,1 +1,15 @@
-gf
+_G.Condition = true 
+while _G.Condition == true do
+wait(0.1)
+
+
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Flintlock,
+    [2] = Vector3.new(200.67276000976562, 9.516454696655273, -486.8582763671875)
+}
+
+game:GetService("ReplicatedStorage").Remotes.ShootEvent:FireServer(unpack(args))
+
+
+
+end
