@@ -1,6 +1,6 @@
 _G.Condition = true 
 while _G.Condition == true do
-wait(0.06)
+wait(0.1)
 
 
 local args = {
